@@ -1,0 +1,29 @@
+@import './varibales.scss';
+
+
+.socialContainer{
+    position: absolute;
+    width: 20%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+  
+    .icons{  
+  
+          margin: 30px;
+          height: 54px;
+          width: 54px;
+  
+        
+      }
+      
+      @media only screen and (max-width: $mobileView) {
+        transform: rotate(0);
+        width: 90%;
+        
+      }
+  
+  
+}

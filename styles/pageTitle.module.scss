@@ -1,0 +1,33 @@
+@import './varibales.scss';
+
+.sectioneTitle{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+  
+    h1{
+        color: $red;
+        @media only screen and (max-width: $mobileView){
+            margin: 0 10px;
+        }
+    }
+  }
+  
+  .leftLine{
+    border: 2px $darkBlue solid;
+    width: 40%;
+    height: 0;
+  
+  
+  }
+  
+  .rightLine{
+    border: 2px $darkBlue solid;
+    width: 40%;
+    height: 0;
+  
+  }
+  

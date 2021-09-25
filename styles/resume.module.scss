@@ -1,0 +1,49 @@
+@import './varibales.scss';
+
+  .ExperiencesContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+  
+    @media only screen and (max-width: $mobileView) {
+        flex-direction: column;
+        text-align: center;
+  
+    }
+  }
+  
+  .experiences{
+    width: 30%;
+    margin: 10px 0px;
+    
+    
+    h1{
+        margin-bottom: 15px;
+    }
+  
+    h2{
+        margin-bottom: 15px;
+        color: $red;
+    }
+  
+    
+    ul{
+        padding: 0 20px;
+    }
+
+    li{
+         margin: 10px 0;
+        
+    }
+  
+    @media only screen and (max-width: $mobileView) {
+        width: 90%;
+  
+        ul{
+            list-style: none;
+        }
+  
+    }
+  }
+  
