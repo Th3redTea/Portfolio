@@ -20,6 +20,8 @@
     width: 50%;
     display: flex;
     justify-content: center;
+    animation: identifier 0.3s ;
+    animation-iteration-count: 1;
   
     @media only screen and (max-width: $mobileView) {
         width: 100%;
@@ -35,6 +37,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    animation: identifier 0.3s ;
+    animation-iteration-count: 1;
     
     h1{
         font-size: 3rem;
@@ -66,13 +70,14 @@
         width: 150px;
         padding: 10px;
         text-align: center;
-        color: $midblue;
+        color: white;
         margin-top: 40px;
-        border: $midblue 2px solid;
-        border-radius: 15px;
+        background-color: black;
+        border: black 2px solid;
         &:hover{
-            background-color: $midblue;
-            color: $lightBlue;
+            background-color: transparent;
+            color: black;
+            transition: all 0.5s ease;
         }
     }
     
@@ -84,18 +89,29 @@
 
 
 
-// .show{
+@keyframes identifier {
+    0%{
+        transform: translateY(40px);
+        opacity: 0.3;
+    }
 
-//   width: 90vw;
-//   margin: 20px auto;
-//   display: flex;
-//   overflow: hidden;
-//   transform: translateY(0);
-//   opacity: 1;
+    25%{
+        transform: translateY(30px);
+        opacity: 0.6;
+    }
 
+    50% {
+        transform: translateY(20px);
+        opacity: 0.8;
+    }
 
-  
-//   @media only screen and (max-width: $mobileView) {
-//       flex-direction: column;
-//   }
-// }
+    75%{
+        transform: translateY(10px);
+        opacity: 0.9;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -14,6 +14,8 @@
   }
   
   .experiences{
+    animation: identifier 0.3s ;
+    animation-iteration-count: 1;
     width: 30%;
     margin: 10px 0px;
     
@@ -47,3 +49,30 @@
     }
   }
   
+
+  @keyframes identifier {
+    0%{
+        transform: translateY(40px);
+        opacity: 0.3;
+    }
+
+    25%{
+        transform: translateY(30px);
+        opacity: 0.6;
+    }
+
+    50% {
+        transform: translateY(20px);
+        opacity: 0.8;
+    }
+
+    75%{
+        transform: translateY(10px);
+        opacity: 0.9;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
