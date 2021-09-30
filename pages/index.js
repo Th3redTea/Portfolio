@@ -1,13 +1,18 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import SocialMedia from '../components/SocialMedia'
 import styles from '../styles/Home.module.scss'
 import Link from 'next/link'
-import SocialMedia from '../components/SocialMedia'
 
 export default function Home() {
 
   return (
     <>
+        <Head>
+          <title>Amine Amhoume</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="keywords" content="frontend web developer" />
+      </Head>
       <div className={styles.hero}>
 
             <div className={styles.heroImage}>

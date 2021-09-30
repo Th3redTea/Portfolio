@@ -1,0 +1,68 @@
+@import './varibales';
+
+.container{
+    margin: 40px auto;
+    
+}
+
+.form{
+    width: 45%;
+    background-color: #90e0ef;
+    display: flex;
+    flex-direction: column;
+    color: #03045e;
+    border-radius: 15px ;
+    margin: 0 auto;
+
+    @media only screen and (max-width: $mobileView) {
+        width: 90%;
+    }
+    
+    label{
+        margin: 10px 20px;
+    }
+
+    .name, .email, .message{
+        width: 50%;
+        margin: 10px 20px;
+    }
+
+    input{
+        padding: 10px ;
+        border: none;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .message{
+        width: 90%;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+    }
+}
+
+
+.submitButton{
+    width: 100px;
+    margin: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #03045e;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: #03045e;
+    font-weight: bold;
+    position: relative;
+    overflow-x: hidden;
+
+
+    &:hover{
+        color: white;
+        background-color: #03045e;
+        transition: background-color 0.4s ease;
+
+    }
+    
+}
+

@@ -13,9 +13,10 @@ body {
   // font-family: 'Ubuntu', sans-serif;  
   color: $darkBlue;
   position: relative;
-
+  
   @media only screen and (max-width: $mobileView){
     overflow-x: hidden;
+    width: 100vw;
 
   }
 

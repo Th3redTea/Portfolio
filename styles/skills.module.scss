@@ -1,0 +1,130 @@
+@import './varibales';
+
+.container{
+    height: 80vh;
+    display: flex;
+    margin: 30px auto;
+    justify-content: space-evenly;
+    overflow: hidden;
+    
+    
+    @media only screen and (max-width: $mobileView) {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+.softSkills{
+    position: relative;
+    height: 100%;
+    animation: identifier 0.3s ;
+    animation-iteration-count: 1;
+
+    h1{
+        text-align: center;
+        margin: 20px 0;
+    
+    }
+
+
+    @media only screen and (max-width: $mobileView) {
+        flex-direction: column;
+        width: 100%;
+        font-size: 0.5rem;
+
+
+    }
+}
+
+
+.MyStack{
+    height: 100%;
+    position: relative;
+    animation: identifier 0.3s ;
+    animation-iteration-count: 1;
+
+    h1{
+        text-align: center;
+        margin: 20px 0;
+    
+    }
+
+    @media only screen and (max-width: $mobileView) {
+        flex-direction: column;
+        width: 100%;
+
+    }
+}
+
+.skillsContainer{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 30px auto;
+    font-size: 1rem;
+
+
+    @media only screen and (max-width: $mobileView) {
+
+
+    }
+
+}
+
+.skill{
+    text-align: center;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+
+.MyStack::before{
+    content: '';
+    background-color: rgba(255, 0, 0, 0.062);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 25px;
+
+}
+
+.softSkills::before{
+    content: '';
+    background-color: rgba(0, 183, 255, 0.164);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 25px;
+
+
+}
+
+
+@keyframes identifier {
+    0%{
+        transform: translateY(40px);
+        opacity: 0.3;
+    }
+
+    25%{
+        transform: translateY(30px);
+        opacity: 0.6;
+    }
+
+    50% {
+        transform: translateY(20px);
+        opacity: 0.8;
+    }
+
+    75%{
+        transform: translateY(10px);
+        opacity: 0.9;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

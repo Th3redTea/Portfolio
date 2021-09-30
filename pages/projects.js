@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/project.module.scss'
 import { Icon } from '@iconify/react';
+import Head from 'next/head'
 
 
 
@@ -28,13 +29,14 @@ const Project = ({ title, srcImage, description, alt, linkPreview, linkGithub })
                 <div className={styles.iconsContainer}>
                 <Link href={linkPreview}>
                     <a target="_blank" rel="noreferrer" >
-                        <Icon icon="ic:baseline-preview" className={styles.icons}/>
+                        <Icon icon="ic:baseline-preview" className={styles.preview}/>
                     </a>
                 </Link>
 
                 <Link href={linkGithub}>
                     <a target="_blank" rel="noreferrer">
-                        <Icon icon="fa-brands:github" className={styles.icons}/>
+                        <Icon icon="fa-brands:github-square" className={styles.github}/>
+
                     </a>
                 </Link>
             </div>
@@ -48,6 +50,11 @@ const Project = ({ title, srcImage, description, alt, linkPreview, linkGithub })
 function projects() {
     return (
         <>
+        <Head>
+          <title>Amine Amhoume | Projects</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="keywords" content="frontend web developer" />
+      </Head>
             <PageTitle title="Projects" />
             <Project 
                 srcImage="/TODO.png"
