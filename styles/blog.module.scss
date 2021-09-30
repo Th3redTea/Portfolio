@@ -1,7 +1,13 @@
+@import './varibales';
+
 .container{
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    @media only screen  and (max-width: $mobileView){
+        display: flex;
+        flex-direction: column;   
+    }
 }
 
 .post{
@@ -10,6 +16,8 @@
     position: relative;
     animation: identifier 0.3s ;
     animation-iteration-count: 1;
+
+
     
 
   h1{
@@ -22,11 +30,17 @@
         top: 50%;
         left: 5px;
 
+        @media only screen  and (max-width: $mobileView){
+            font-size: 1rem;
+            top: 30%;
+        }
+
     }
 
 
   @media only screen {
       font-size: 1.2rem;
+      margin: 20px ;
       
   }
 
@@ -74,6 +88,13 @@
     svg{
         margin-left: 5px;
     }
+
+    @media only screen  and (max-width: $mobileView){
+        font-size: 1rem;
+        top: 30%;
+        width: 50%;
+    }
+
 }
 
 .description{

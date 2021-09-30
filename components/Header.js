@@ -60,12 +60,12 @@ function Header() {
                 />
 
                     <ul>
-                        <li><Link href="/"><a >Home</a></Link></li>   
-                        <li><Link href="/resume"><a >Resume</a></Link></li>   
-                        <li><Link href="/projects"><a >Projects</a></Link></li>   
-                        <li><Link href="/skills"><a >Skills</a></Link></li>   
-                        <li><Link href="/blog"><a >Blog</a></Link></li>   
-                        <li><Link href="/contact"><a >Contact</a></Link></li>    
+                        <li><Link href="/"><a onClick={() => setNav(!nav)}  >Home</a></Link></li>   
+                        <li><Link href="/resume"><a onClick={() => setNav(!nav)}  >Resume</a></Link></li>   
+                        <li><Link href="/projects"><a onClick={() => setNav(!nav)} >Projects</a></Link></li>   
+                        <li><Link href="/skills"><a onClick={() => setNav(!nav)} >Skills</a></Link></li>   
+                        <li><Link href="/blog"><a onClick={() => setNav(!nav)} >Blog</a></Link></li>   
+                        <li><Link href="/contact"><a onClick={() => setNav(!nav)} >Contact</a></Link></li>    
                     </ul>
                 </nav>
         </>
