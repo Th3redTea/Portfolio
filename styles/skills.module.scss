@@ -29,7 +29,6 @@
 
     @media only screen and (max-width: $mobileView) {
         flex-direction: column;
-        
 
 
     }
@@ -41,6 +40,7 @@
     position: relative;
     animation: identifier 0.3s ;
     animation-iteration-count: 1;
+    margin-bottom: 20px;
 
     h1{
         text-align: center;
@@ -57,11 +57,10 @@
 }
 
 .skillsContainer{
-    width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 30px auto;
+    margin: 20px auto;
     font-size: 1rem;
 
 
@@ -76,7 +75,8 @@
 .skill{
     text-align: center;
     margin: 10px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+
     @media only screen and (max-width: $mobileView) {
         margin: 5px;
 

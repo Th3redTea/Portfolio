@@ -33,10 +33,11 @@ function Post() {
                   src={article.cover_image}
                   alt={article.title}
                   height={322}
-                  width={612}
+                  width={650}
               />
+                <h1>{article.title}</h1>
               </div>
-              <h1>{article.title}</h1>
+
               <p className={styles.description}>{article.description}</p>
               <div className={styles.link}>
                   <Link  href={article.url}>
