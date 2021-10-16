@@ -21,14 +21,15 @@
     
 
   h1{
-      text-align: start;
-      margin: 5px;
+        text-align: start;
+        padding: 5px;
         font-size: 2rem;
         color: white;
         position: absolute;
         z-index: 110;
         bottom: 10px;
-        left: 5px;
+        // left: 5px;
+        background-color: rgba(0, 0, 0, 0.185);
 
         @media only screen  and (max-width: $mobileView){
             font-size: 1rem;
@@ -49,31 +50,18 @@
 
 .ImageContainer{
 
-    margin: 5px;
+    // margin: 5px;
     position: relative;
-
-    &::after{
-        content: '';
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background: rgb(0,0,0);
-        background: linear-gradient(354deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.48503151260504207) 53%, rgba(255,255,255,0) 100%);        z-index: 100;
-        right:0;
-        top: 0;
-        left: 0;
-        bottom: 0;
-    }
 
 
 }
 
 
 .link{
-    margin: 20px 5px;
+    // margin: 20px 5px;
     border-radius: 10px;
     border: black 2px solid;
-    padding: 5px;
+    // padding: 5px;
     width: 30%;
     display: grid;
     place-items: center;
@@ -83,7 +71,7 @@
         color: white;
     }
     svg{
-        margin-left: 5px;
+        // margin-left: 5px;
     }
 
     @media only screen  and (max-width: $mobileView){
