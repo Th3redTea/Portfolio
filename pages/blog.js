@@ -32,8 +32,8 @@ function Post() {
               <Image
                   src={article.cover_image}
                   alt={article.title}
-                  height={322}
-                  width={650}
+                  height={222}
+                  width={450}
               />
                 <h1>{article.title}</h1>
               </div>

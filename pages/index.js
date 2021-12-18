@@ -28,7 +28,9 @@ export default function Home() {
                      I’m Amine Amhoume.    
                      </h1>
                     <p>
-                     I’m a web developer and a security researcher based in Morocco.
+                    I am a front-end web developer. I work with Javascript, Typescript,  CSS/Sass, ReactJS, and NextJS on the frontend.  
+                    Also, I can assist on the backend using Django, REST framework for APIs, and nodeJS. 
+                    I am good with design systems and accessibility. Not only this but, I am a part-time security researcher and self-learning fanatic.
                     </p>
 
                     <Link href="/resume">

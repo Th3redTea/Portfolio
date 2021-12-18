@@ -14,6 +14,18 @@ function resume() {
             <section id="resume">
                 <PageTitle title="Resume"/>
                 <div className={styles.ExperiencesContainer + ' ' + styles.container}>
+                <div className={styles.experiences}>
+                        <h1>Profond Solution — Front-end developer</h1>
+                        <h2>September 2021 - December 2021</h2>
+                        <ul>
+                            <li>Developing responsive web applications across platforms.</li>
+                            <li>Turn design pages and specific components into HTML, CSS, and JavaScript.</li>
+                            <li>Design simple pages and components using Figma.</li>
+                            <li>Worked with a team of developers to resolve front-end and CSS issues.</li>
+                            <li>Maintain websites performance and SEO by applying the best practices and tools.</li>
+                            <li>Developed and managed project plans while providing status updates to management using Zentao Agile tool.</li>
+                        </ul>
+                    </div>
                     <div className={styles.experiences}>
                         <h1>Synack Red Teaming — Security Researcher</h1>
                         <h2>July 2021- PRESENT</h2>

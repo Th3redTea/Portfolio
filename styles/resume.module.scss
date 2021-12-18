@@ -2,20 +2,19 @@
 
   .ExperiencesContainer{
     width: 90%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 40px auto;
   
     @media only screen and (max-width: $mobileView) {
-        flex-direction: column;
-  
+        grid-template-rows: 1fr;
+        grid-template-columns: none;
     }
   }
   
   .experiences{
     animation: identifier 0.3s ;
     animation-iteration-count: 1;
-    width: 30%;
     margin: 10px 0px;
 
     
