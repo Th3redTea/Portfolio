@@ -115,25 +115,25 @@ const MyStack = () => {
                     alt="hard skills Git"
                     title="Version Control"
                 />
-                <Skill ImageSrc="/skills/hardskills/materialUI.svg" 
-                    alt="hard skills MaterialUI"
-                    title="MaterialUI"
+                <Skill ImageSrc="/skills/django.svg" 
+                    alt="hard skills Python Django"
+                    title="Python Django "
                 />
                 <Skill ImageSrc="/skills/hardskills/shield.svg" 
                         alt="hard skills Security"
                         title="Security"
                     />
-                <Skill ImageSrc="/skills/hardskills/webpack.svg" 
-                    alt="hard skills webpack"
-                    title="Webpack"
+                <Skill ImageSrc="/skills/nodejs.svg" 
+                    alt="nodejs"
+                    title="Nodejs"
                 />
                 <Skill ImageSrc="/skills/hardskills/GraphQL.svg" 
                     alt="hard skills GraphQL"
                     title="GraphQL"
                 />
-                <Skill ImageSrc="/skills/hardskills/gulp.svg" 
-                    alt="hard skills Gulp"
-                    title="Gulp"
+                <Skill ImageSrc="/skills/tailwindcss.svg" 
+                    alt="hard skills Tailwind CSS"
+                    title="Tailwind"
                 />
                 <Skill ImageSrc="/skills/hardskills/writing.svg" 
                     alt="hard skills tech writing"
