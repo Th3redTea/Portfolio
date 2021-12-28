@@ -87,12 +87,12 @@ function projects() {
             />
 
             <Project 
-                srcImage="/TODO.png"
-                description="This vanilla javascript todo app represent a challenge from Frontend mentor"
-                title="Todo App"
-                alt="Vanilla Javascript Todo App"
-                linkGithub="https://github.com/aminequ/todo-app-main"
-                linkPreview="https://fancy-todo-app.netlify.app/"
+                srcImage="/sunnyside.png"
+                description="A landing-page for a marketing agency called 'Sunnyside'. I created this project to practice my tailwind css. Also, it's hosted on vercel"
+                title="Sunnyside Agency"
+                alt="Sunnyside Agency"
+                linkGithub="https://github.com/aminequ/sunnyside"
+                linkPreview="https://sunnyside-ochre.vercel.app/"
 
             />
         </>
