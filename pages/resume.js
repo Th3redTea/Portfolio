@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/resume.module.scss'
 import PageTitle from '../components/PageTitle'
 import Head from 'next/head'
+import Slide from 'react-reveal/Slide';
 
 function resume() {
     return (
@@ -14,6 +15,8 @@ function resume() {
             <section id="resume">
                 <PageTitle title="Resume"/>
                 <div className={styles.ExperiencesContainer + ' ' + styles.container}>
+                <Slide bottom>
+
                 <div className={styles.experiences}>
                         <h1>Profond Solution — Front-end developer</h1>
                         <h2>September 2021 - December 2021</h2>
@@ -26,6 +29,9 @@ function resume() {
                             <li>Developed and managed project plans while providing status updates to management using Zentao Agile tool.</li>
                         </ul>
                     </div>
+                </Slide>
+                <Slide bottom>
+
                     <div className={styles.experiences}>
                         <h1>Synack Red Teaming — Security Researcher</h1>
                         <h2>July 2021- PRESENT</h2>
@@ -37,6 +43,9 @@ function resume() {
                             <li>Create working proof of concepts for exposed vulnerabilities.</li>
                         </ul>
                     </div>
+                </Slide>
+                <Slide bottom>
+
                     <div className={styles.experiences}>
                         <h1>Freelancer — Cyber Security Writer</h1>
                         <h2>September 2018 - January 2021</h2>
@@ -44,12 +53,16 @@ function resume() {
                         <li>Help edit technical documentation for cybersecurity companies.</li>
                         <li>Optimize website withd SEO best practices.</li>
                     </div>
+                </Slide>
+                <Slide bottom>
+
                     <div className={styles.experiences}>
                         <h1>Local school,— English Teacher</h1>
                         <h2>May 2019 - January 2020</h2>
                         <li>Teaching local kids the basics of the English language.</li>
                         <li>Teaching young people how to speak English.</li>
                     </div>
+                </Slide>
                 </div>
         </section> 
         </>

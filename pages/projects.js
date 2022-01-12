@@ -5,27 +5,32 @@ import Link from 'next/link'
 import styles from '../styles/project.module.scss'
 import { Icon } from '@iconify/react';
 import Head from 'next/head'
-
-
-
+import Slide from 'react-reveal/Slide';
 
 
 const Project = ({ title, srcImage, description, alt, linkPreview, linkGithub }) => {
 
     return(
         <div className={styles.project}>
+            <Slide left>
+
             <div className={styles.imageContainer}>
                 <Image 
                     src={srcImage}
                     alt={alt}
                     width={500}
                     height={300}
-                
-                />
+                    
+                    />
             </div>
+            </Slide>
             <div className={styles.text} >
+                <Slide right>
                 <h1>{title}</h1>
+                </Slide>
+                <Slide bottom>
                 <p>{description}</p>
+                </Slide>
                 <div className={styles.iconsContainer}>
                 <Link href={linkPreview}>
                     <a target="_blank" rel="noreferrer" >

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Icon } from '@iconify/react';
 import PageTitle from '../components/PageTitle'
 import Head from 'next/head';
+import { Slide } from 'react-reveal';
 
 
 
@@ -29,6 +30,8 @@ const Skill = ({
 
 const SoftSkills = () => {
     return(
+        <Slide right>
+
         <div className={styles.softSkills}>
             <h1>Soft Skills</h1>
 
@@ -82,12 +85,16 @@ const SoftSkills = () => {
                            
             </div>
         </div>
+        </Slide>
+
     )
 }
 
 
 const MyStack = () => {
     return(
+        <Slide left>
+
         <div className={styles.MyStack}>
             <h1>Tools & Hard Skills</h1>
             <div className={styles.skillsContainer}>
@@ -123,9 +130,9 @@ const MyStack = () => {
                         alt="hard skills Security"
                         title="Security"
                     />
-                <Skill ImageSrc="/skills/nodejs.svg" 
-                    alt="nodejs"
-                    title="Nodejs"
+                <Skill ImageSrc="/skills/typescript.svg" 
+                    alt="typescript"
+                    title="Typescript"
                 />
                 <Skill ImageSrc="/skills/hardskills/GraphQL.svg" 
                     alt="hard skills GraphQL"
@@ -141,6 +148,8 @@ const MyStack = () => {
                 />
             </div>
         </div>
+        </Slide>
+
     )
 }
 
