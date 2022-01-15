@@ -102,7 +102,7 @@ function projects() {
             />
             <Project 
                 srcImage="/pinterest.png"
-                description="A mini Pinterest clone I am working on using React Taiwlwindcss and Vercel for CI/CD "
+                description="A mini Pinterest clone I am working on using React Tailwind CSS and Vercel for CI/CD "
                 title="Pinterest clone"
                 alt="Pinterest clone"
                 linkGithub="https://github.com/aminequ/Pinterest-clone"
