@@ -62,19 +62,20 @@ function projects() {
       </Head>
             <PageTitle title="Projects" />
             <Project 
-                srcImage="/TODO.png"
-                description="This vanilla javascript todo app represent a challenge from Frontend mentor"
-                title="Todo App"
-                alt="Vanilla Javascript Todo App"
-                linkGithub="https://github.com/aminequ/todo-app-main"
-                linkPreview="https://fancy-todo-app.netlify.app/"
+                srcImage="/pinterest.png"
+                description="A mini Pinterest clone I am working on using React Tailwind CSS and Vercel for CI/CD "
+                title="Pinterest clone"
+                alt="Pinterest clone"
+                linkGithub="https://github.com/aminequ/Pinterest-clone"
+                linkPreview="https://pinterest-clone-theta.vercel.app/"
 
             />
+
 
             <Project 
                 srcImage="/topmatches.png"
                 description="topmatches is a website to discover everything related to Laliga and Premier League teams. It's build with ReactJS, NextJS, Sass and deployed on Vercel."
-                title="Topmacthes"
+                title="TopMatches"
                 alt="See today's top matches"
                 linkGithub="https://github.com/aminequ/react-topmatches"
                 linkPreview="https://topmatches.vercel.app/"
@@ -101,14 +102,15 @@ function projects() {
 
             />
             <Project 
-                srcImage="/pinterest.png"
-                description="A mini Pinterest clone I am working on using React Tailwind CSS and Vercel for CI/CD "
-                title="Pinterest clone"
-                alt="Pinterest clone"
-                linkGithub="https://github.com/aminequ/Pinterest-clone"
-                linkPreview="https://pinterest-clone-theta.vercel.app/"
+                srcImage="/TODO.png"
+                description="This vanilla javascript todo app represent a challenge from Frontend mentor"
+                title="Todo App"
+                alt="Vanilla Javascript Todo App"
+                linkGithub="https://github.com/aminequ/todo-app-main"
+                linkPreview="https://fancy-todo-app.netlify.app/"
 
             />
+
         </>
     )
 }
